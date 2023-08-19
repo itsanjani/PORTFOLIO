@@ -1,0 +1,365 @@
+
+.btn-danger{
+    border-radius: 30PX;
+    font-size: 15px;
+}
+
+.btn-danger:hover{
+    border: 1px solid #dc3545;
+    background: #212428;
+}
+
+
+.text-light-green{
+    color: #20c997;
+}
+
+.bg-light-green{
+    background-color: #20c997;
+    border-radius: 30PX;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.bg-light-green:hover{
+    border: 1px solid #20c997;
+    background: none;
+    color: #fff;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.bg-black-muted{
+    background: #343a40;
+}
+
+.service-box{
+    border: 2px solid #b9bfc7;
+}
+
+.service-box i{
+    margin-top: -50px;
+}
+
+.service-box:hover{
+    background: #212428;
+    -moz-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02);
+    box-shadow: 0px 11px 9px -10px #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+
+.fa-palette, .fa-browser, .fa-icons, .fa-search, .fa-edit, .fa-code{
+    border-radius: 50%;
+    color: #212428;
+    background-color: #b9bfc7;
+}
+
+
+#myTab li a{
+    color: #868686;
+}
+
+.fa-facebook:hover, .fa-linkedin-in:hover{
+    color: rgb(9, 25, 95);
+    border-radius: 50%;
+}
+
+.fa-instagram:hover{
+    color: #b63c5d;
+}
+
+.fa-twitter:hover{
+    color: #208bc9;
+}
+
+.resume li h4{
+    margin-bottom: 110px;
+    border-radius: 50%;
+    background: #20c997;
+    position: relative;
+    z-index: 2;
+
+}
+
+.resume li h4::after{
+    content: "";
+    background: #20c997;
+    width: 2px;
+    height: 130px;
+    position: absolute;
+    margin-left: -1px;
+    z-index: 1;
+}
+
+.btn-gray{
+    border: 2px solid #aca9a9;
+    color: #aca9a9;
+    border-radius: 30px;
+}
+
+.btn-gray:hover{
+    background-color: #a6aaaf;
+}
+
+.bg-progres{
+    background: #20c997;
+}
+
+/****************************whatsapp icon**************************************/
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 1px 1px 5px rgb(106, 212, 129);
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
+/****************************************testinomial css****************************************/
+
+
+
+.height {
+  height: auto;
+}
+
+.card {
+  border: none;
+  cursor: pointer;
+  box-shadow: 1px 1px 40px rgba(151, 148, 148, 0.1);
+}
+
+.card:hover {
+  background-color: #343a40 !important;
+}
+
+.testimonial-list {
+  list-style: none
+}
+
+.testimonial-list li {
+  margin-bottom: 20px
+}
+
+.testimonials-margin {
+  margin-top: -19px
+}
+/***************************animated progressive bar (skill bar)************************************/
+
+.progress-bar {
+  width: 0;
+  animation: progress 1.5s ease-in-out forwards;
+  
+  .title {
+    opacity: 0;
+    animation: show 0.35s forwards ease-in-out 0.5s;
+  }
+} 
+
+
+@keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+} 
+@keyframes show  {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.progress-bar1 {
+    width: 0;
+    animation: progress1 1.5s ease-in-out forwards;
+    
+    .title1 {
+      opacity: 0;
+      animation: show1 0.35s forwards ease-in-out 0.5s;
+    }
+  } 
+
+@keyframes progress1 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 90%;
+    }
+  } 
+  @keyframes show1  {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  
+.progress-bar2 {
+    width: 0;
+    animation: progress2 1.5s ease-in-out forwards;
+    
+    .title2 {
+      opacity: 0;
+      animation: show2 0.35s forwards ease-in-out 0.5s;
+    }
+  } 
+
+@keyframes progress2 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 85%;
+    }
+  } 
+  @keyframes show2  {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+.progress-bar3 {
+    width: 0;
+    animation: progress3 1.5s ease-in-out forwards;
+    
+    .title3 {
+      opacity: 0;
+      animation: show3 0.35s forwards ease-in-out 0.5s;
+    }
+} 
+
+@keyframes progress3 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 10%;
+    }
+  } 
+  @keyframes show3  {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.progress-bar4 {
+    width: 0;
+    animation: progress4 1.5s ease-in-out forwards;
+    
+    .title4 {
+      opacity: 0;
+      animation: show4 0.35s forwards ease-in-out 0.5s;
+    }
+} 
+
+@keyframes progress4 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 70%;
+    }
+  } 
+  @keyframes show4  {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .gallery{
+    padding: 80px 0px;
+  }
+  img{
+    max-width: 100%;
+  }
+  .gallery img{
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+  }
+  #gallery-popup .modal-img{
+    width: 100%;
+  }
+
+ 
+
+  .gallery {
+    position: relative;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .gallery:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
