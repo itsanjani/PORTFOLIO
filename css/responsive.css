@@ -5,7 +5,12 @@
     .cv{
         float: left;
     }
+    
+}
+
+@media screen and (min-device-width: 220px) and (max-device-width: 1024px)
+{
     .carousel-item img {
-        height: 550px;
+        height: 550px !important;
     }
 }
