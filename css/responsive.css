@@ -5,4 +5,7 @@
     .cv{
         float: left;
     }
+    .carousel-item img {
+        height: 550px;
+    }
 }
