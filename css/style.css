@@ -170,11 +170,11 @@ h1{
 
 .progress-bar {
   width: 0;
-  animation: progress 1.5s ease-in-out forwards;
+  animation: progress 3.5s ease-in-out forwards;
   
   .title {
     opacity: 0;
-    animation: show 0.35s forwards ease-in-out 0.5s;
+    animation: show 2.35s forwards ease-in-out 0.5s;
   }
 } 
 
@@ -199,11 +199,11 @@ h1{
 
 .progress-bar1 {
     width: 0;
-    animation: progress1 1.5s ease-in-out forwards;
+    animation: progress1 3.5s ease-in-out forwards;
     
     .title1 {
       opacity: 0;
-      animation: show1 0.35s forwards ease-in-out 0.5s;
+      animation: show1 2.35s forwards ease-in-out 0.5s;
     }
   } 
 
@@ -227,11 +227,11 @@ h1{
   
 .progress-bar2 {
     width: 0;
-    animation: progress2 1.5s ease-in-out forwards;
+    animation: progress2 3.5s ease-in-out forwards;
     
     .title2 {
       opacity: 0;
-      animation: show2 0.35s forwards ease-in-out 0.5s;
+      animation: show2 2.35s forwards ease-in-out 0.5s;
     }
   } 
 
@@ -255,11 +255,11 @@ h1{
 
 .progress-bar3 {
     width: 0;
-    animation: progress3 1.5s ease-in-out forwards;
+    animation: progress3 3.5s ease-in-out forwards;
     
     .title3 {
       opacity: 0;
-      animation: show3 0.35s forwards ease-in-out 0.5s;
+      animation: show3 2.35s forwards ease-in-out 0.5s;
     }
 } 
 
@@ -282,11 +282,11 @@ h1{
 
 .progress-bar4 {
     width: 0;
-    animation: progress4 1.5s ease-in-out forwards;
+    animation: progress4 3.5s ease-in-out forwards;
     
     .title4 {
       opacity: 0;
-      animation: show4 0.35s forwards ease-in-out 0.5s;
+      animation: show4 2.35s forwards ease-in-out 0.5s;
     }
 } 
 
@@ -363,3 +363,10 @@ h1{
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+@media screen and (min-device-width: 220px) and (max-device-width: 1024px)
+{
+    .carousel-item img {
+        height: 550px !important;
+    }
+}
